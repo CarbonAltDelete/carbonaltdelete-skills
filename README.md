@@ -12,7 +12,11 @@ skills/
     SKILL.md
 ```
 
-When the Carbon+Alt+Delete MCP server details are ready, add a portable `mcp.json` at the repository root. Do not put credentials in the plugin package.
+## MCP configuration
+
+The portable Agent Plugin configuration in [`mcp.json`](mcp.json) connects to the Carbon+Alt+Delete streamable HTTP endpoint at `https://app.carbonaltdelete.eu/mcp`. The Claude Code plugin configuration in [`.mcp.json`](.mcp.json) provides the same server using Claude Code's `http` transport name.
+
+The endpoint uses OAuth bearer authentication. No credentials or authorization headers are stored in this repository; clients that support OAuth discover the authorization server automatically. In Claude Code, enable the plugin and complete the sign-in from `/mcp` (or run `claude mcp login plugin:carbonaltdelete-skills:carbonaltdelete`).
 
 ## Test locally
 

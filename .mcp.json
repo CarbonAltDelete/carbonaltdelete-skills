@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "carbonaltdelete": {
+      "type": "http",
+      "url": "https://app.carbonaltdelete.eu/mcp"
+    }
+  }
+}
