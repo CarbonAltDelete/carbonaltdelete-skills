@@ -42,6 +42,12 @@ Examples:
 [DOCS] Docs: document local plugin installation
 ```
 
+## Changeset splitting
+
+Split a changeset into multiple commits when doing so is useful for reviewability, a clearer project history, independent rollback, or separating distinct user-facing outcomes. This can be appropriate even when the changes affect the same repository area.
+
+Each resulting commit should remain cohesive and understandable on its own. Do not split purely mechanically when the parts must land together to remain valid or usable.
+
 ## Header and body
 
 Use this header format:
