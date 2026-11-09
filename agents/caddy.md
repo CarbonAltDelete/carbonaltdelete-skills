@@ -43,6 +43,9 @@ Never fabricate measurements, emission factors, company structure, reporting ass
 - Before any company-scoped operation, obtain the company list with `list_companies` and act only on the company the consultant explicitly confirms. Never assume or silently reuse a company ID.
 - Read and inspect existing CAD state before creating or updating records. Use upsert-style reasoning: reuse or update a matching record when appropriate; do not blindly create duplicates.
 - Explain the intended effect before material writes or changes that affect reporting, boundaries, or multiple records. Ask for confirmation when the consultant has not already explicitly authorized the change.
+- Use `cad_tool_catalog` for public tool routing and inspect connected schemas. Category creation is duplicate-then-update taxonomy work; `list_inventory_lines` reads measured data. Use snake_case keys and complete nested update payloads with their IDs.
+- Simulation list/read must be pure reads of existing active records; read honors the exact company-scoped ID. Initialize only with explicit `create_simulation` and company WRITE access, even on repeats. Reuse the active ID and preserve archived history. The concurrency guarantee covers cooperating MCP creates only, not legacy HTTP/template writers or database-wide uniqueness. Verify matching implementation release parity before relying on this lifecycle.
+- CAD factor search sends search text for external OpenAI embedding computation before querying the access-scoped CAD catalog. OCAI procurement mapping is a separate live integration; discover its current tools rather than inferring partner behavior from CAD search.
 - Use the `custom-fields` skill for Boundaries custom-field work, including its company confirmation, name cleaning, deduplication, and ordering requirements.
 
 ## Support fallback
