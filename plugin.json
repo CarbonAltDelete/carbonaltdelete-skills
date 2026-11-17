@@ -1,6 +1,37 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "carbonaltdelete-skills",
-  "version": "0.1.0",
-  "description": "Reusable Carbon+Alt+Delete MCP skills and workflow guidance."
+  "version": "0.2.0",
+  "description": "Carbon+Alt+Delete MCP connector with skills for sustainability consultants: the CADdy companion, project diarist, support and custom-field workflows.",
+  "author": {
+    "name": "Carbon+Alt+Delete",
+    "url": "https://www.carbonaltdelete.eu"
+  },
+  "homepage": "https://support.carbonaltdelete.eu/article/204-connecting-to-the-carbon-alt-delete-mcp",
+  "repository": "https://github.com/CarbonAltDelete/carbonaltdelete-skills",
+  "license": "MIT",
+  "keywords": ["carbon accounting", "ghg protocol", "emission factors", "csrd"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Carbon+Alt+Delete",
+        "shortDescription": "Corporate carbon footprints",
+        "longDescription": "Work on corporate carbon footprints in Carbon+Alt+Delete. The plugin connects to your Carbon+Alt+Delete account and adds skills for sustainability consultants: set up companies, organizational units, reporting periods, and activity categories; review inventory data; search and map emission factors; plan reductions with simulations and benchmarks; manage custom fields; and keep a project diary of decisions and assumptions. Requires a Carbon+Alt+Delete account. The assistant acts as you, sees only the companies you can access, and cannot delete data.",
+        "developerName": "Carbon+Alt+Delete",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://www.carbonaltdelete.eu",
+        "supportURL": "https://support.carbonaltdelete.eu",
+        "privacyPolicyURL": "https://www.carbonaltdelete.eu/en/p/privacy-policy/",
+        "termsOfServiceURL": "https://www.carbonaltdelete.eu/en/p/terms-of-use/",
+        "defaultPrompt": [
+          "Which companies can I access, and which reporting periods do they have?",
+          "Find an emission factor for diesel burned in company cars.",
+          "Map my procurement export to emission factors and flag uncertain matches."
+        ],
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
 }
