@@ -76,3 +76,7 @@ All bundled skills and Claude subagents give a concise, user-visible log after t
 Install the pinned development tools with `mise install`, then register the Git hooks with `lefthook install`. Run every validation locally with `mise run lint`.
 
 Lefthook checks staged Markdown, JSON, and TOML files before each commit. Markdownlint CLI 2 handles Markdown, Biome validates and format-checks JSON, and Taplo validates and format-checks TOML.
+
+## License
+
+Licensed under the [MIT License](LICENSE). Copyright (c) 2026 Carbon+Alt+Delete.
