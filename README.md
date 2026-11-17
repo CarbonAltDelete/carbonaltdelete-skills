@@ -25,7 +25,7 @@ The endpoint uses OAuth bearer authentication. No credentials or authorization h
 Add the repository as a Codex plugin marketplace, then install the plugin:
 
 ```sh
-codex plugin marketplace add carbon-alt-delete-oss/carbonaltdelete-skills
+codex plugin marketplace add CarbonAltDelete/carbonaltdelete-skills
 codex plugin add carbonaltdelete-skills@carbonaltdelete-local
 ```
 
@@ -44,7 +44,7 @@ To install from a local checkout instead, pass its absolute path to `codex plugi
 Add the repository as a Claude Code plugin marketplace and install the package:
 
 ```text
-/plugin marketplace add carbon-alt-delete-oss/carbonaltdelete-skills
+/plugin marketplace add CarbonAltDelete/carbonaltdelete-skills
 /plugin install carbonaltdelete-skills@carbonaltdelete-local
 /reload-plugins
 ```
