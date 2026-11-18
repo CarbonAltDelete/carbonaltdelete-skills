@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "carbonaltdelete-skills",
-      "source": "./",
+      "source": "./plugins/carbonaltdelete-skills",
       "category": "productivity"
     }
   ]

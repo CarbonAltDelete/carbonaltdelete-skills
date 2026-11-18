@@ -20,4 +20,4 @@ When an action is blocked, fails, or needs user confirmation, state that status 
 
 ## Cross-client maintenance
 
-The policy is embedded in every portable `skills/*/SKILL.md` and in every matching Claude Code `agents/*.md` so it works in all supported clients. Keep the embedded policy behavior synchronized with this document in the same changeset.
+The policy is embedded in every portable `plugins/carbonaltdelete-skills/skills/*/SKILL.md` and in every matching Claude Code `plugins/carbonaltdelete-skills/agents/*.md` so it works in all supported clients. Keep the embedded policy behavior synchronized with this document in the same changeset.
