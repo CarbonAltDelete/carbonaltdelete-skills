@@ -1,7 +1,7 @@
 {
-  "name": "carbonaltdelete-local",
+  "name": "carbonaltdelete",
   "interface": {
-    "displayName": "Carbon+Alt+Delete (Local)"
+    "displayName": "Carbon+Alt+Delete"
   },
   "plugins": [
     {

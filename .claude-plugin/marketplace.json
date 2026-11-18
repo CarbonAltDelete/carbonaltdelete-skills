@@ -1,0 +1,15 @@
+{
+  "name": "carbonaltdelete",
+  "description": "Carbon+Alt+Delete plugins for carbon accounting with Claude.",
+  "owner": {
+    "name": "Carbon+Alt+Delete",
+    "url": "https://www.carbonaltdelete.eu"
+  },
+  "plugins": [
+    {
+      "name": "carbonaltdelete-skills",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

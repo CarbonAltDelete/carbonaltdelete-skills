@@ -1,6 +1,6 @@
 ---
 name: custom-fields
-description: Manage Carbon+Alt+Delete Boundaries custom fields and dropdown options for a user-confirmed company, including safe upserts, cleanup, deduplication, and ordering.
+description: Create, rename, clean up, deduplicate, and reorder Carbon+Alt+Delete Boundaries custom fields and their dropdown options for a confirmed company. Use when the user asks to add, change, tidy, or sort custom fields or dropdown values in Carbon+Alt+Delete.
 ---
 
 # Boundaries: custom fields
