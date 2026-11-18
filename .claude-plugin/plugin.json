@@ -1,5 +1,19 @@
 {
   "name": "carbonaltdelete-skills",
-  "version": "0.1.0",
-  "description": "Reusable Carbon+Alt+Delete MCP skills and workflow guidance."
+  "displayName": "Carbon+Alt+Delete",
+  "version": "0.2.0",
+  "description": "Carbon+Alt+Delete MCP connector with skills for sustainability consultants: the CADdy companion, project diarist, support and custom-field workflows.",
+  "author": {
+    "name": "Carbon+Alt+Delete",
+    "url": "https://www.carbonaltdelete.eu"
+  },
+  "homepage": "https://support.carbonaltdelete.eu/article/204-connecting-to-the-carbon-alt-delete-mcp",
+  "repository": "https://github.com/CarbonAltDelete/carbonaltdelete-skills",
+  "license": "MIT",
+  "keywords": ["carbon accounting", "ghg protocol", "emission factors", "csrd"],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://support.carbonaltdelete.eu/article/204-connecting-to-the-carbon-alt-delete-mcp",
+  "supportUrl": "https://support.carbonaltdelete.eu",
+  "privacyPolicyUrl": "https://www.carbonaltdelete.eu/en/p/privacy-policy/",
+  "termsOfServiceUrl": "https://www.carbonaltdelete.eu/en/p/terms-of-use/"
 }

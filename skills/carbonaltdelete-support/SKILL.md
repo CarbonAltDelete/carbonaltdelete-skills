@@ -1,6 +1,6 @@
 ---
 name: carbonaltdelete-support
-description: Find authoritative Carbon+Alt+Delete guidance when the installed skills, agents, or MCP tools do not provide enough information for a user request.
+description: Look up official Carbon+Alt+Delete Support articles for product behavior, how-to steps, and error messages. Use when the installed skills, agents, or MCP tool results do not answer a Carbon+Alt+Delete question, or give incomplete, ambiguous, or conflicting guidance.
 ---
 
 # Carbon+Alt+Delete support fallback

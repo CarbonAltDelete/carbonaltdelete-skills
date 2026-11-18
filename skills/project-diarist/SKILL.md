@@ -1,6 +1,6 @@
 ---
 name: project-diarist
-description: Maintain a corporate carbon-footprint project's durable Markdown diary of observed actions, key decisions, and assumptions after material consultant or agent work.
+description: Keep project-diary.md, the audit trail of a corporate carbon-footprint project, with verified actions, key decisions, and assumptions. Use after a material Carbon+Alt+Delete change, consultant decision, assumption, milestone, or blocker, or when the consultant asks to update or review the project diary.
 ---
 
 # Project diarist
