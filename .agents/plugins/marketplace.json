@@ -8,7 +8,7 @@
       "name": "carbonaltdelete-skills",
       "source": {
         "source": "local",
-        "path": "./"
+        "path": "./plugins/carbonaltdelete-skills"
       },
       "policy": {
         "installation": "AVAILABLE",
